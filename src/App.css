@@ -1,0 +1,84 @@
+@keyframes escudoanimacao{
+  from, to{
+    transform: translateY(15px);
+  }
+  to{
+    transform: translateY(-15px);
+  }
+}
+
+.imglogo{
+  width: 50px;
+  height: auto;
+}
+.header{
+  margin: 10px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.escudo{
+  width: 350px;
+  height: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  animation: escudoanimacao 1.5s ease-in-out infinite alternate;
+}
+h1{
+  font-size: 3em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+.section1{
+  height: 90vh;
+}
+.section2{
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+h2{
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+p{
+  width: 375px;
+}
+.lista{
+  width: 360px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  margin-top: 15%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.dicas{
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.4), 0 4px 15px rgba(0, 255, 255, 0.2);
+  padding: 10px;
+  width: 180px;
+  margin: 10px;
+}
+.doisdecima{
+  display: flex;
+}
+footer{
+  background-color: rgb(7, 7, 51);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-size: 0.7em;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
